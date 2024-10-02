@@ -127,16 +127,17 @@ function getWeatherDescription(code) {
 }
 
 // Function to get the weather icon URL based on the weather code
+// Function to get the weather icon URL based on the weather code
 function getWeatherIconUrl(code) {
     switch (code) {
         case 0:
-        case 1: return 'icons/sunny.png'; // Replace with the path to your sunny icon
+        case 1: return 'https://raw.githubusercontent.com/Galaktikshapes/Weatherly/main/icons/sunny.png';
         case 2:
-        case 3: return 'icons/cloudy.png'; // Replace with the path to your cloudy icon
+        case 3: return 'https://raw.githubusercontent.com/Galaktikshapes/Weatherly/main/icons/cloudy.png';
         case 51:
-        case 61: return 'icons/rainy.png'; // Replace with the path to your rainy icon
-        case 71: return 'icons/snowy.png'; // Replace with the path to your snowy icon
-        default: return 'icons/default.png'; // Replace with the path to your default icon
+        case 61: return 'https://raw.githubusercontent.com/Galaktikshapes/Weatherly/main/icons/rainy.png';
+        case 71: return 'https://raw.githubusercontent.com/Galaktikshapes/Weatherly/main/icons/snowy.png';
+        default: return 'https://raw.githubusercontent.com/Galaktikshapes/Weatherly/main/icons/default.png';
     }
 }
 
